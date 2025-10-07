@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>CleanRL Web Demo</title>
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" />
+</head>
+<body>
+    <h1>CleanRL Reinforcement Learning Demo</h1>
+    <button id="startBtn">Start PPO Training</button>
+    <div id="status">Status: Idle</div>
+    <pre id="logArea"></pre>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
