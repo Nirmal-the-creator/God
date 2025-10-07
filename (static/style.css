@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background: #121212;
+    color: #eee;
+}
+
+h1 {
+    text-align: center;
+    color: #00ffcc;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background: #00ffcc;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: #00cc99;
+}
+
+#status {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.1em;
+    color: #ffaa00;
+}
+
+#logArea {
+    margin-top: 20px;
+    padding: 20px;
+    background: #222;
+    border-radius: 12px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    font-family: monospace;
+    font-size: 0.9em;
+    color: #0f0;
+}
